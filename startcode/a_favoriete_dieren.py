@@ -1,7 +1,7 @@
 lijst = []
-input_dier = ""
-print("kies je 3 favoriete dieren, 1 per keer:")
+print("geef je 3 favoriete dieren, 1 dier per keer.")
+
 for i in range(3):
-    input_dier = input("dier " + str(i+1))
-    lijst.append(input_dier)
+    dier = input("Dier " + str(i+1) + ": ")
+    lijst.append(dier)
 print(lijst)
