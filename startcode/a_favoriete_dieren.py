@@ -1,5 +1,7 @@
-# Maak een programma dat:
-# - een lege lijst aanmaakt
-# - drie dieren vraagt aan de user
-# - deze dieren toevoegt aan de lijst
-# - de lijst met dieren toont aan de user
+lijst = []
+input_dier = ""
+print("kies je 3 favoriete dieren, 1 per keer:")
+for i in range(3):
+    input_dier = input("dier " + str(i+1))
+    lijst.append(input_dier)
+print(lijst)
